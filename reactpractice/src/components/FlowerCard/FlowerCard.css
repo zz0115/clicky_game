@@ -1,0 +1,36 @@
+.card {
+  background: black;
+  border-radius: 2px;
+  height: 250px;
+  margin: 1rem;
+  position: relative;
+  width: 220px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.card > .img-container {
+  padding: 20px 0;
+  height: 80%;
+  overflow: hidden;
+  text-align: center;
+  background:black;
+}
+
+
+img {
+  width: 200px;
+  height: 200px
+}
+
+.card > .count {
+  color: #808080;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.card > .count:hover {
+  color: #8AD500;
+}

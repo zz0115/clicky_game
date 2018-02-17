@@ -1,0 +1,9 @@
+.header {
+  background:#808080;
+  height: 45%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
